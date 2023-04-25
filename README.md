@@ -374,4 +374,5 @@ spring.redis.password=${REDIS_PASSWORD:foobared}
 spring.redis.port=${REDIS_PORT:6379}
 ~~~
 ## UML diagrams
+https://github.com/huy8208/cmpe172-Midterm/blob/main/Architecture%20Diagram.png
 ![Diagram](https://github.com/huy8208/cmpe172-Midterm/blob/main/Architecture%20Diagram.png)
