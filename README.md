@@ -8,8 +8,40 @@ StackEdit stores your files in your browser, which means all your files are auto
 ## Explain (with code snippets from sample code) how the Web UI is able to remember" the selected Store.
 
 The Web UI is able to remember the selected store with this Javascript code:
-`<script type="text/javascript"> function selectedStore() { reg = document.getElementById("register").value switch (reg) { case "5012349": document.getElementById("stores").options[0].selected = true break; case "1287612": document.getElementById("stores").options[1].selected = true break; case "6498234": document.getElementById("stores").options[2].selected = true break; case "7812386": document.getElementById("stores").options[3].selected = true break; case "8723098": document.getElementById("stores").options[4].selected = true break; case "9621043": document.getElementById("stores").options[5].selected = true break; case "1393478": document.getElementById("stores").options[6].selected = true break; default: document.getElementById("stores").options[0].selected = true } } </script>`
+~~~
 
+<script type="text/javascript">
+        function selectedStore() {
+            reg = document.getElementById("register").value
+            switch (reg) {
+                case "5012349":
+                    document.getElementById("stores").options[0].selected = true
+                    break;
+                case "1287612":
+                    document.getElementById("stores").options[1].selected = true
+                    break;
+                case "6498234":
+                    document.getElementById("stores").options[2].selected = true
+                    break;
+                case "7812386":
+                    document.getElementById("stores").options[3].selected = true
+                    break;
+                case "8723098":
+                    document.getElementById("stores").options[4].selected = true
+                    break;
+                case "9621043":
+                    document.getElementById("stores").options[5].selected = true
+                    break;
+                case "1393478":
+                    document.getElementById("stores").options[6].selected = true
+                    break;
+                default:
+                    document.getElementById("stores").options[0].selected = true
+            }
+        }
+    </script>
+
+~~~
 When the page loads, the `selectedStore` function is called by the `onload` attribute on the `body` tag:
 
 
