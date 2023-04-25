@@ -156,9 +156,9 @@ Here's a step-by-step explanation of my code:
 
 3.   What's the User Name and Password you created? How did you "Hash" the Password?
 
-Username is hello
-Password is dancing
-This is how I hash the password:
+- Username: hello
+- Password: dancing
+- This is how I hash the password:
 
 ~~~
    @Bean
